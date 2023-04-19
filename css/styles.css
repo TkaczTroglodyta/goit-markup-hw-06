@@ -91,15 +91,12 @@ body {
   position: absolute;
   width: 0;
   height: 4px;
-  left: 50%; /* bottom bar center start; value "0" is default */
+  left: 50%;
   bottom: 0;
   background-color: var(--color-secondary);
   border-radius: 2px;
-  transform: translate(
-    -50%,
-    0
-  ); /* equal, left & right tranformartion; comment this line to disable */
-  transition: var(--hover-transition); /* comment this line to disable */
+  transform: translate(-50%, 0);
+  transition: var(--hover-transition);
 }
 .link:hover,
 .link:focus,
@@ -110,7 +107,6 @@ body {
 .link:hover::after,
 .link:focus::after {
   width: 100%;
-  /* transition-property: none; */ /* uncomment this line to enable */
 }
 .link-active::after {
   width: 100%;
