@@ -116,6 +116,10 @@ body {
   width: 100%;
   transition-property: none;
 }
+.contacts {
+  display: flex;
+  gap: 40px;
+}
 .link-contact {
   display: flex;
   align-items: center;
@@ -123,14 +127,7 @@ body {
   fill: currentColor;
   transition: var(--hover-transition);
 }
-.contacts {
-  display: flex;
-  gap: 40px;
-}
-.text-mail {
-  padding: 4px 0 0 10px;
-}
-.text-phone {
+.text-contact {
   padding: 4px 0 0 10px;
 }
 .menu,
