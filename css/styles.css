@@ -297,11 +297,14 @@ body {
   padding: 56px 0;
   background-color: var(--color-bgcolor-dark);
 }
+/* footer */
 .footer-wrapper {
   display: flex;
 }
 .footer-col {
   padding-right: 70px;
+}
+.footer-col-nslt {
 }
 .footer-col h3 {
   font-family: var(--font-family-primary);
@@ -340,6 +343,21 @@ body {
 .footer-icon-social:hover {
   fill: var(--color-light);
   background-color: var(--color-secondary);
+}
+.footer-nslt {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  gap: 10px;
+}
+.footer-nslt-lbl {
+  line-height: 1.3;
+  width: 358px;
+  height: 50px;
+  padding: 15px auto 16px;
+  background-color: var(--color-bgcolor-dark);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
 }
 /* modal window */
 .modal-backdrop {
