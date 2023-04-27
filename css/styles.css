@@ -156,7 +156,6 @@ body {
 }
 .btn-slogan,
 .btn-nslt {
-  cursor: pointer;
   color: var(--color-light);
   background-color: var(--color-secondary);
   font-weight: 500;
@@ -168,6 +167,7 @@ body {
   border-radius: 4px;
 }
 .btn-slogan {
+  cursor: pointer;
   margin-top: 30px;
 }
 .section-infos {
@@ -304,6 +304,7 @@ body {
 /* footer */
 .footer-wrapper {
   display: flex;
+  justify-content: space-between;
 }
 .footer-wrapper h3 {
   font-family: var(--font-family-primary);
@@ -315,20 +316,14 @@ body {
   padding-top: 12px;
 }
 .footer-col {
-  padding-right: 70px;
+  /* padding-right: 70px; */
+}
+.footer-col-social {
+  /* padding-right: 78px; */
 }
 .footer-col-nslt {
-  padding-left: 30px;
+  /* padding-right: 0px; */
 }
-/* .footer-col h3 {
-  font-family: var(--font-family-primary);
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.1;
-  text-transform: uppercase;
-  color: var(--color-light);
-  padding-top: 12px;
-} */
 .addr {
   color: var(--color-light);
   font-size: 14px;
@@ -359,10 +354,10 @@ body {
   background-color: var(--color-secondary);
 }
 .footer-nslt {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   padding-top: 20px;
-  gap: 10px;
+  gap: 12px;
 }
 .footer-nslt-inp {
   line-height: 1.3;
@@ -381,10 +376,14 @@ body {
 }
 .btn-nslt {
   width: 200px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 24px;
+  /* padding-left: 11px; */
+  /* flex-shrink: 0; */
   fill: var(--color-light);
+}
+.btn-nslt-icon {
+  /* padding-left: 11px; */
 }
 /* modal window */
 .modal-backdrop {
