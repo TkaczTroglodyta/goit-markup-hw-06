@@ -305,12 +305,7 @@ body {
 .footer-wrapper {
   display: flex;
 }
-.footer-col {
-  padding-right: 70px;
-}
-.footer-col-nslt {
-}
-.footer-col h3 {
+.footer-wrapper h3 {
   font-family: var(--font-family-primary);
   font-size: 14px;
   font-weight: 700;
@@ -319,6 +314,21 @@ body {
   color: var(--color-light);
   padding-top: 12px;
 }
+.footer-col {
+  padding-right: 70px;
+}
+.footer-col-nslt {
+  padding-left: 60px;
+}
+/* .footer-col h3 {
+  font-family: var(--font-family-primary);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--color-light);
+  padding-top: 12px;
+} */
 .addr {
   color: var(--color-light);
   font-size: 14px;
@@ -370,7 +380,11 @@ body {
   border-color: rgba(255, 255, 255, 0.3);
 }
 .btn-nslt {
-  width: auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  fill: var(--color-light);
 }
 /* modal window */
 .modal-backdrop {
