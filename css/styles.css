@@ -366,13 +366,15 @@ body {
   border-color: rgba(255, 255, 255, 0.3);
 }
 .btn-nslt {
-  /* width: 200px; */
   display: inline-flex;
   flex-shrink: 0;
   align-items: center;
   justify-content: space-between;
   padding: 10px 28px 10px 42px;
   fill: var(--color-light);
+}
+.footer-icon-send {
+  margin-left: 24px;
 }
 /* modal window */
 .modal-backdrop {
