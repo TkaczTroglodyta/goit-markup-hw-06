@@ -162,12 +162,12 @@ body {
   line-height: 1.9;
   letter-spacing: 0.06em;
   border: none;
-  padding: 10px 41px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .btn-slogan {
   cursor: pointer;
+  padding: 10px 41px;
   margin-top: 30px;
 }
 .section-infos {
@@ -347,6 +347,7 @@ body {
 .footer-nslt {
   display: inline-flex;
   align-items: center;
+  justify-content: space-between;
   padding-top: 20px;
   gap: 12px;
 }
@@ -355,7 +356,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
   width: 358px; /* should be 369px for proper aligning in my project */
   height: 50px;
-  padding: 15px auto;
   padding-left: 16px;
   background-color: var(--color-bgcolor-dark);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -366,11 +366,12 @@ body {
   border-color: rgba(255, 255, 255, 0.3);
 }
 .btn-nslt {
-  width: 200px;
+  /* width: 200px; */
   display: inline-flex;
   flex-shrink: 0;
   align-items: center;
   justify-content: space-between;
+  padding: 10px 28px 10px 42px;
   fill: var(--color-light);
 }
 /* modal window */
