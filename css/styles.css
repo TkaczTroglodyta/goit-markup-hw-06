@@ -450,7 +450,7 @@ body {
 .achievements {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 40px;
 }
 .achieve-card {
   position: relative;
