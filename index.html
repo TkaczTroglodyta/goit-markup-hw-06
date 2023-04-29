@@ -369,11 +369,18 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="m-main-p">Zostaw swoje dane w formularzu poniżej</p>
         <form autocomplete="off" novalidate>
           <label>
+            <p class="m-main-p">Zostaw swoje dane w formularzu poniżej</p>
+          </label>
+          <label>
             Imię
-            <input type="text" name="imię" class="data-first-name" />
+            <label class="data-input">
+              <svg width="12" height="12">
+                <use href="./images/icons.svg#icon-send" />
+              </svg>
+              <input type="text" name="imię" />
+            </label>
           </label>
 
           <label>
@@ -400,12 +407,6 @@
             <input type="checkbox" name="agreement" class="data-agree" value="regprvp" />
             <label for="agreement">Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</label>
           </div>
-
-          <!-- <label class="data-checkbox">
-      <input type="checkbox" name="agreement" class="data-agree" value="regprvp" />
-      Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
-    </label> -->
-
           <button type="submit" class="data-subm-btn">Wyślij</button>
         </form>
       </div>

@@ -34,9 +34,13 @@ body {
 }
 form {
   width: 448px;
-  margin: 30px 40px;
-  padding: 32px 16px;
+  margin: 2px 40px;
+  padding: 32px 0;
   text-align: center;
+}
+input,
+textarea {
+  border: none;
 }
 label {
   display: flex;
@@ -45,8 +49,9 @@ label {
   line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: left;
+  color: var(--color-medium);
 }
-input[type='text'],
+/* input[type='text'],
 input[type='tel'],
 input[type='email'] {
   padding: 12px 15px;
@@ -71,7 +76,7 @@ textarea {
   padding: 12px 15px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
+} */
 .section {
   padding: 94px 0;
 }
@@ -462,14 +467,22 @@ textarea {
   visibility: hidden;
   pointer-events: none;
 }
+/* form */
 .m-main-p {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 1.8;
   text-align: center;
+  padding-bottom: 12px;
+  color: var(--color-dark);
 }
-/* form */
-
+.data-input {
+  display: inline-flex;
+  padding: 12px 15px;
+  /* margin: 4px 0 10px; */
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
 /* portfolio */
 .selection-btns {
   display: flex;
