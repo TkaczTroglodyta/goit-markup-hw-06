@@ -32,6 +32,28 @@ body {
   background-color: var(--color-light);
   letter-spacing: 0.03em;
 }
+form {
+  width: 448px;
+  margin: 30px 40px;
+  padding: 32px 16px;
+  text-align: center;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+input[type='text'],
+input[type='tel'],
+input[type='email'] {
+  padding: 12px 15px;
+  margin: 4px 0 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
 .section {
   padding: 94px 0;
 }
