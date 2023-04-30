@@ -32,6 +32,16 @@ body {
   background-color: var(--color-light);
   letter-spacing: 0.03em;
 }
+form {
+  width: 448px;
+  margin: 2px 40px;
+  padding: 32px 0;
+  text-align: center;
+}
+input {
+  border: none;
+  outline: none;
+}
 .section {
   padding: 94px 0;
 }
@@ -421,6 +431,52 @@ body {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+/* form */
+.form-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: var(--color-medium);
+}
+.form-p-top {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.8;
+  text-align: center;
+  padding-bottom: 12px;
+  color: var(--color-dark);
+}
+.data-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 15px;
+  margin: 4px 0 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.data-label,
+.data-input {
+  width: 448px;
+}
+.data-label:hover {
+  border-color: var(--color-secondary);
+}
+.data-label:focus-within,
+.data-input:focus-within {
+  border-color: var(--color-secondary);
+  fill: var(--color-secondary);
+}
+.data-input-icon {
+  margin-right: 15px;
+}
+.form-p-label {
+  text-align: left;
+  padding-bottom: 12px;
+  color: var(--color-medium);
 }
 /* portfolio */
 .selection-btns {
