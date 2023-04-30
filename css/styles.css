@@ -493,6 +493,10 @@ input {
 }
 .data-agree {
 }
+.data-a {
+  cursor: default; /* remove this line for a default "pointer"? */
+  text-decoration: underline;
+}
 .btn-slogan,
 .data-subm-btn {
   color: var(--color-light);
