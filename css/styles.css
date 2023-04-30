@@ -420,10 +420,7 @@ textarea {
   border-color: rgba(255, 255, 255, 0.3);
 }
 .btn-nslt {
-<<<<<<< HEAD
-=======
   width: 200px;
->>>>>>> parent of 31e373e (Update styles.css)
   display: inline-flex;
   flex-shrink: 0;
   align-items: center;
