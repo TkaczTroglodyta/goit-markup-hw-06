@@ -420,6 +420,7 @@ textarea {
   border-color: rgba(255, 255, 255, 0.3);
 }
 .btn-nslt {
+  /* width: 200px; */
   display: inline-flex;
   flex-shrink: 0;
   align-items: center;
