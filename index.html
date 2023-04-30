@@ -39,7 +39,7 @@
               <svg width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
-              <div class="text-contact">info@example.com</div>
+              <span class="text-mail">info@example.com</span>
             </a>
           </li>
           <li>
@@ -47,7 +47,7 @@
               <svg width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
-              <div class="text-contact">+48 111 111 111</div>
+              <span class="text-phone">+48 111 111 111</span>
             </a>
           </li>
         </ul>
@@ -62,7 +62,7 @@
             Efektywne rozwiązania<br />
             dla waszego biznesu
           </h1>
-          <button type="button" class="btn-slogan" data-modal-open>Zamów usługę</button>
+          <button class="btn-slogan" type="button" data-modal-open>Zamów usługę</button>
         </div>
       </section>
       <!-- 4 informations -->
@@ -262,7 +262,6 @@
           </ul>
         </div>
       </section>
-      <!-- our customers -->
       <section class="section">
         <div class="container">
           <h2>Nasi Klienci</h2>
@@ -304,7 +303,7 @@
     <!-- footer -->
     <footer class="dark-bg">
       <div class="container footer-wrapper">
-        <div>
+        <div class="footer-col">
           <a href="./index.html" class="logo">Web<span class="logo-light">Studio</span></a>
           <address>
             <ul class="addr">
@@ -320,7 +319,7 @@
             </ul>
           </address>
         </div>
-        <div>
+        <div class="footer-col">
           <h3>Dołącz do nas</h3>
           <ul class="footer-social">
             <li>
@@ -345,23 +344,8 @@
             </li>
           </ul>
         </div>
-        <div>
-          <h3>Zapisz się do newslettera</h3>
-          <form name="nslt_form" autocomplete="off" class="footer-nslt" novalidate>
-            <label>
-              <input type="email" class="footer-nslt-inp" placeholder="E-mail" />
-            </label>
-            <button type="submit" class="btn-nslt">
-              Zapisz się
-              <svg class="footer-icon-send" width="24" height="24">
-                <use href="./images/icons.svg#icon-send" />
-              </svg>
-            </button>
-          </form>
-        </div>
       </div>
     </footer>
-    <!-- modal -->
     <div class="modal-backdrop is-hidden" data-modal>
       <div class="modal-content">
         <button type="button" class="btn-modal-close" data-modal-close>
@@ -369,46 +353,6 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <form autocomplete="off" novalidate>
-          <label>
-            <p class="m-main-p">Zostaw swoje dane w formularzu poniżej</p>
-          </label>
-          <label>
-            Imię
-            <label class="data-input">
-              <svg width="12" height="12">
-                <use href="./images/icons.svg#icon-send" />
-              </svg>
-              <input type="text" name="imię" />
-            </label>
-          </label>
-
-          <label>
-            Telefon
-            <input type="tel" name="telefon" class="data-tel" />
-          </label>
-
-          <label>
-            Email
-            <input type="email" name="email" class="data-email" />
-          </label>
-
-          <label>
-            Komentarz
-            <textarea
-              name="komentarz"
-              rows="6"
-              placeholder="Wprowadź tekst"
-              class="data-comment"
-            ></textarea>
-          </label>
-
-          <div class="data-checkbox">
-            <input type="checkbox" name="agreement" class="data-agree" value="regprvp" />
-            <label for="agreement">Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</label>
-          </div>
-          <button type="submit" class="data-subm-btn">Wyślij</button>
-        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
