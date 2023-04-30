@@ -453,7 +453,7 @@ input {
 .data-label {
   display: inline-flex;
   align-items: center;
-  padding: 9px 15px;
+  padding: 11px 15px;
   margin: 4px 0 10px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -462,11 +462,13 @@ input {
 .data-input {
   width: 448px;
 }
-.data-label:hover {
+.data-label:hover,
+.data-comment:hover {
   border-color: var(--color-secondary);
 }
 .data-label:focus-within,
-.data-input:focus-within {
+.data-input:focus-within,
+.data-comment:focus-within {
   border-color: var(--color-secondary);
   fill: var(--color-secondary);
 }
@@ -477,6 +479,42 @@ input {
   text-align: left;
   padding-bottom: 12px;
   color: var(--color-medium);
+}
+.data-comment {
+  resize: none;
+  margin: 5px 0;
+  padding: 12px 15px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.data-comment::placeholder {
+  color: var(--color-medium);
+  opacity: 0.5;
+}
+.data-agree {
+}
+.btn-slogan,
+.data-subm-btn {
+  color: var(--color-light);
+  background-color: var(--color-secondary);
+  font-weight: 700;
+  line-height: 1.9;
+  border: none;
+  padding: 10px 41px;
+  margin-top: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.data-subm-btn {
+  font-size: 16px; /* normalization will resolve a problem? */
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 200px;
+}
+.data-subm-btn:active {
+  transform: translateY(4px) scale(0.98);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  transition: var(--active-transition);
 }
 /* portfolio */
 .selection-btns {
