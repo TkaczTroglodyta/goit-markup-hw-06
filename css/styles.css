@@ -360,6 +360,15 @@ textarea {
   color: var(--color-light);
   padding-top: 12px;
 }
+.footer-col {
+  /* padding-right: 70px; */
+}
+.footer-col-social {
+  /* padding-right: 78px; */
+}
+.footer-col-nslt {
+  /* padding-right: 0px; */
+}
 .addr {
   color: var(--color-light);
   font-size: 14px;
