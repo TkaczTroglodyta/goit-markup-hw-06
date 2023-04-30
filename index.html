@@ -409,12 +409,18 @@
               class="data-comment"
             ></textarea>
           </label>
-          <div class="data-checkbox data-agree">
+          <!-- <div class="data-checkbox data-agree">
             <input type="checkbox" name="agreement" value="regprvp" />
             <label for="agreement"
               >Oświadczam, iż akceptuję <a href="#" class="data-a">Regulamin</a> i
-              <a href="#" class="data-a">Politykę Prywatności.</a></label
+              <a href="#" class="data-a">Politykę Prywatności</a>.</label
             >
+          </div> -->
+          <div class="data-checkbox">
+            <div class="data-checkbox-container">
+              <input type="checkbox" id="check" name="check" class="data-checkbox-input" />
+              <label for="check" class="data-checkbox-label"></label>
+            </div>
           </div>
           <button type="submit" class="data-subm-btn">Wyślij</button>
         </form>
