@@ -32,12 +32,6 @@ body {
   background-color: var(--color-light);
   letter-spacing: 0.03em;
 }
-form {
-  width: 448px;
-  margin: 2px 40px;
-  padding: 32px 0;
-  text-align: center;
-}
 input {
   border: none;
   outline: none;
@@ -433,6 +427,12 @@ input {
   pointer-events: none;
 }
 /* form */
+.form-wrapper {
+  width: 448px;
+  margin: 2px 40px;
+  padding: 32px 0;
+  text-align: center;
+}
 .form-label {
   display: flex;
   flex-direction: column;
