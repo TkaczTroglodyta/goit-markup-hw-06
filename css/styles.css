@@ -517,6 +517,24 @@ input {
 }
 .data-checkbox-label {
   display: block;
+  width: 100%;
+  background-color: var(--color-light);
+  border: 1px solid var(--color-medium);
+  border-radius: 2px;
+  cursor: pointer;
+}
+.data-checkbox-label::after {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 3px;
+  top: 4px;
+  width: 55%;
+  height: 40%;
+  transform: rotate(-52deg);
+  border-width: 0 0 2px 2px;
+  border-style: solid;
+  border-color: transparent;
 }
 
 .data-agree {
