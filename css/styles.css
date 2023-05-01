@@ -161,10 +161,11 @@ input {
   text-transform: uppercase;
 }
 .btn-slogan,
-.btn-nslt {
+.btn-nslt,
+.data-subm-btn {
   color: var(--color-light);
   background-color: var(--color-secondary);
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.9;
   letter-spacing: 0.06em;
   border: none;
@@ -428,7 +429,7 @@ input {
   visibility: hidden;
   pointer-events: none;
 }
-/* form */
+/* form in modal */
 .form-wrapper {
   width: 448px;
   margin: 2px 40px;
@@ -495,7 +496,6 @@ input {
   color: var(--color-medium);
   opacity: 0.5;
 }
-
 .data-checkbox {
   display: inline-flex;
   align-items: center;
@@ -549,7 +549,6 @@ input {
   box-shadow: 0 0 3px var(--color-medium);
   border-color: var(--color-secondary);
 }
-
 .data-agree {
   font-size: 14px;
   line-height: 1.7;
@@ -560,23 +559,11 @@ input {
   cursor: default; /* remove this line for a default "pointer"? */
   text-decoration: underline;
 }
-
-.btn-slogan,
 .data-subm-btn {
-  color: var(--color-light);
-  background-color: var(--color-secondary);
-  font-weight: 700;
-  line-height: 1.9;
-  border: none;
+  width: 200px;
+  text-align: center;
   padding: 10px 41px;
   margin-top: 30px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-.data-subm-btn {
-  text-align: center;
-  letter-spacing: 0.06em;
-  width: 200px;
 }
 .data-subm-btn:active {
   transform: translateY(4px) scale(0.98);
