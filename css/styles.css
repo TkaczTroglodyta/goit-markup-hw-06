@@ -556,7 +556,7 @@ input {
   color: var(--color-medium);
 }
 .data-a {
-  cursor: default; /* remove this line for a default "pointer"? */
+  cursor: pointer; /* change this line for a "default" value"? */
   text-decoration: underline;
 }
 .data-subm-btn {
