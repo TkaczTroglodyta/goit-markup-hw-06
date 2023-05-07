@@ -436,6 +436,14 @@ input {
   padding: 32px 0;
   text-align: center;
 }
+.form-wrapper h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.8;
+  text-align: center;
+  padding-bottom: 12px;
+  color: var(--color-dark);
+}
 .form-label {
   display: flex;
   flex-direction: column;
@@ -444,14 +452,6 @@ input {
   letter-spacing: 0.01em;
   text-align: left;
   color: var(--color-medium);
-}
-.form-p-top {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 1.8;
-  text-align: center;
-  padding-bottom: 12px;
-  color: var(--color-dark);
 }
 .data-label {
   display: inline-flex;
