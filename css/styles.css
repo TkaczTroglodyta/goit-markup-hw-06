@@ -129,8 +129,8 @@ input {
   fill: currentColor;
   transition: var(--hover-transition);
 }
-.text-contact {
-  padding: 4px 0 0 10px;
+.link-contact-icon {
+  margin-right: 10px;
 }
 .menu,
 .contacts {
@@ -468,6 +468,7 @@ input {
 .data-label:hover,
 .data-comment:hover {
   border-color: var(--color-secondary);
+  fill: var(--color-secondary);
   transition: var(--hover-transition);
 }
 .data-label:focus-within,
