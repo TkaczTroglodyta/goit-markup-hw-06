@@ -639,7 +639,7 @@ input {
   transform: translateY(100%);
   transition: var(--hover-transition);
 }
-.achieve-overlay p {
+.achieve-overlay-text {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
