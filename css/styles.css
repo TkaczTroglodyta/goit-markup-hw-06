@@ -555,7 +555,7 @@ input {
   font-size: 14px;
   line-height: 1.7;
   margin-top: 3px;
-  /* color: var(--color-medium); */
+  color: var(--color-medium);
 }
 .data-a {
   text-decoration: underline;
