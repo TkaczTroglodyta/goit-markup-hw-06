@@ -452,7 +452,7 @@ input {
   letter-spacing: 0.01em;
   text-align: left;
   color: var(--color-medium);
-  outline: none !important;
+  outline: none;
 }
 .data-label {
   display: inline-flex;
@@ -474,7 +474,7 @@ input {
 }
 .data-label:focus-within,
 .data-input:focus-within,
-.data-comment:focus-within {
+.data-comment:focus {
   border-color: var(--color-secondary);
   fill: var(--color-secondary);
   transition: var(--hover-transition);
