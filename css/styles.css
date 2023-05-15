@@ -314,7 +314,6 @@ input {
   justify-content: space-between;
 }
 .footer-wrapper h3 {
-  font-family: var(--font-family-primary);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
